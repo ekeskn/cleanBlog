@@ -4,20 +4,20 @@ const path = require('path');
 
 const app = express();
 
-app.set('view engine', 'ejs');
+app.set("view engine", "ejs");
 
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
     res.render('index')
 });
-app.get('add_post', (req, res) => {
+app.get('/add_post', (req, res) => {
     res.render('add_post')
 });
-app.get('post', (req, res) => {
+app.get('/post', (req, res) => {
     res.render('post')
 });
-app.get('about', (req, res) => {
+app.get('/about', (req, res) => {
     res.render('about')
 });
 
