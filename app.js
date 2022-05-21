@@ -39,7 +39,7 @@ app.get('/about', pageControllers.getAboutPage);
 app.get('/post/edit/:id', pageControllers.getEditPageWithId);
 
 // SERVER CONNECTION
-const port = 5000;
+const port = 3000;
 
 app.listen(port, () => {
     console.log(`Sunucu ${port} da başlatıldı..`);
