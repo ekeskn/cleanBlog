@@ -79,11 +79,11 @@ The server will start, and you'll see a message in the console:
 The application will be accessible at http://localhost:3000.
 Usage
 
-  -Visit the homepage at / to view all blog posts.
-  -Click on a blog post to view its details at /post/:id.
- -Add a new post by visiting /add_post.
-  -Edit an existing post by visiting /post/edit/:id.
- -Delete a post by sending a DELETE request to /post/:id.
+  - Visit the homepage at / to view all blog posts.
+  - Click on a blog post to view its details at /post/:id.
+  - Add a new post by visiting /add_post.
+  - Edit an existing post by visiting /post/edit/:id.
+  - Delete a post by sending a DELETE request to /post/:id.
 
 Contributing
 
