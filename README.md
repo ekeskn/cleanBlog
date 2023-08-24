@@ -2,6 +2,18 @@
 
 The Clean Blog Web Application is a simple blogging platform built using Node.js, Express, and MongoDB. It allows users to create, read, update, and delete blog posts. This README provides an overview of the project structure, dependencies, and how to run the application.
 
+## Table of Contents
+
+- [Project Structure](#project-structure)
+- [Dependencies](#dependencies)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Database Configuration](#database-configuration)
+  - [Running the Application](#running-the-application)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Project Structure
 
 The project is structured as follows:
@@ -28,3 +40,5 @@ The application uses the following main dependencies:
 
 1. Clone this repository to your local machine:
 
+   ```bash
+   git clone https://github.com/yourusername/clean-blog.git
