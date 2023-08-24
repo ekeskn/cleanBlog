@@ -40,18 +40,15 @@ The application uses the following main dependencies:
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/yourusername/clean-blog.git
+       git clone https://github.com/yourusername/clean-blog.git
 
    Navigate to the project directory:
 
-   ```bash
 
-    cd clean-blog
+        cd clean-blog
 
 Install the required dependencies:
 
-     ```bash
 
     npm install
 
@@ -61,7 +58,7 @@ The application uses a MongoDB database for storing blog posts. Make sure you ha
 
 In the app.js file, you can configure the MongoDB connection by modifying the mongoose.connect line:
 
-     ```bash
+     
      mongoose.connect('mongodb://localhost/cleanblog-test-db', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -71,14 +68,10 @@ Running the Application
 
 To start the application, run the following command:
 
-     ```bash
-
 
     npm start
 
 The server will start, and you'll see a message in the console:
-
-     ```bash
 
 
     Sunucu 3000 da başlatıldı..
