@@ -3,17 +3,17 @@ Clean Blog Web Application
 The Clean Blog Web Application is a simple blogging platform built using Node.js, Express, and MongoDB. It allows users to create, read, update, and delete blog posts. This README provides an overview of the project structure, dependencies, and how to run the application.
 Table of Contents
 
-    Project Structure
-    Dependencies
-    Getting Started
-        Installation
-        Database Configuration
-        Running the Application
-    Usage
-    Contributing
-    License
-
 Project Structure
+Dependencies
+Getting Started
+    Installation
+    Database Configuration
+    Running the Application
+Usage
+Contributing
+License
+
+#Project Structure
 
 The project is structured as follows:
 
